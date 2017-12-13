@@ -20,8 +20,6 @@ class TestCase extends UnitTestCase
 
     public function setUp()
     {
-//        $url = file_get_contents('url');
-
         $token = '09fc591d1e369e228de645e59385b981081088fc5f20f0ed91510753c74981e0';
         $url = 'https://oapi.dingtalk.com/robot/send?access_token=' . $token;
 
